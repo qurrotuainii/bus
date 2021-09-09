@@ -50,7 +50,14 @@
     max-width: inherit;
     background-color:transparent;
   }
+  .text-xl {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 50px;
+    padding-top: 30px;
   
+  }
     /*private*/
   .bg-private{
     background-image: url(/assets/img/bg/mohamed-osama-qoyFxkolN40-unsplash.jpg);

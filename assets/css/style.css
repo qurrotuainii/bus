@@ -106,9 +106,9 @@ img {
 
 .navbar .getstarted {
   background: #9f53dd;
-  padding: 8px 27px;
+  padding: 8px 22px;
   margin-left: 30px;
-  border-radius: 4px;
+  border-radius: 50px;
   font-weight: 500px;
   color: #fff;
 }
@@ -597,6 +597,7 @@ section {
 
 .scale {
   width: 50%;
+  margin-bottom: 100px;
 }
 
 .img{
@@ -622,6 +623,7 @@ section {
   font-size: 30px;
   font-weight: bold;
   margin-top: 50px;
+  padding-bottom: 10px;
 
 }
 
@@ -629,7 +631,7 @@ section {
 /* footer */
 .footer {
   background: #f8f9fa;
-  padding: 0 0 10px 0;
+  padding: 0 0 0px 0;
   color: rgb(19, 17, 17);
   font-size: 14px;
 }
