@@ -629,17 +629,17 @@ section {
 /* footer */
 .footer {
   background: #f8f9fa;
-  padding: 0 0 30px 0;
+  padding: 0 0 10px 0;
   color: rgb(19, 17, 17);
   font-size: 14px;
 }
- .section-footer .footerlist ul a { /*font*/
+ .footer .col-md-4 ul a { /*font*/
   color: rgba(0, 0, 0, 0.6);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
-.section-footer .footerlist ul a:hover { /*font*/
+.footer .col-md-4 ul a:hover { /*font*/
   color: #9f53dd;
   transition: 0.3s;
   display: inline-block;
