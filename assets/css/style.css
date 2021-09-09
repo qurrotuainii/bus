@@ -1,6 +1,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  margin: 0;
+  padding: 0;
 }
 ul {
   list-style: none;
@@ -569,12 +571,22 @@ section {
   border-radius: .5rem;
 }
 
-.bg-gray-100 {
-  --bg-opacity: 1;
-  background-color: #d3d3d3;
-  background-color: rgba(247, 250, 252, var(--bg-opacity));
-}
+.rounded-full{
+  border: 1px solid #444;
+  border-radius: 50px;
+  color: #444;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 30px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.4s ease 0s;
 
+
+}
 .w-full {
   width: 100%;
 }
@@ -609,7 +621,8 @@ section {
 .text-xl {
   font-size: 30px;
   font-weight: bold;
-  padding-bottom: 1px;
+  margin-top: 50px;
+
 }
 
 
