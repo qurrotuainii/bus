@@ -622,7 +622,7 @@ section {
 .text-xl {
   font-size: 30px;
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 10px;
   padding-bottom: 10px;
 
 }
@@ -801,3 +801,95 @@ background-color: #9f53dd;
   padding-top: 1rem;
 }
 
+/* app */
+
+#app{
+  width: 100%;
+  position: relative;
+  padding: 50px 0 50px 0;
+  background-color: #d3d6d9;
+}
+#app::before{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#app h2{
+  margin: 0 0 20px 0;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 56px;
+  color: rgba(12, 12, 12, 0.8);
+  padding-bottom: 10px;
+}
+#app h2 span{
+  color: #fff;
+  border-bottom: 4px solid #1acc8d;
+}
+
+
+#app .btn-get-started img{
+  max-width: 40%;
+}
+#app .app-img {
+  text-align: center;
+}
+#app .app-img .mokup img {
+  max-width: 100%;
+}
+.agensan{
+  background-color: #362f2f;
+
+}
+.agensan .agen  img{
+  max-width: 100%;
+}
+.callcenter{
+  margin-top: 0;
+}
+.callcenter .text-xl{
+  font-size: 30px;
+  font-weight: bold;
+}
+.callcenter .rounded-full{
+margin-bottom: 100px;
+padding: 10px 0;
+}
+/*--------------------------------------------------------------
+# Details
+--------------------------------------------------------------*/
+.details .content + .content {
+  margin-top: 50px;
+}
+
+.details .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #010483;
+  padding-bottom: 50px;
+}
+
+.details .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.details .content ul li {
+  padding-bottom: 30px;
+}
+
+.details .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #6455f1;
+}
+
+.details .content p:last-child {
+  margin-bottom: 0;
+}
+.details  .col-md-5 .imgees{
+  max-width: 100%;
+
+}
