@@ -13,7 +13,7 @@
           <li><a href="#">Manage Booking</a></li>
           <li><a href="managebooking.html">Delivery Service</a></li>
           <li><a href="private_service.html">Private Service</a></li>
-          <li><a href="#" class="getstarted">Login</a></li>
+          <li><a href="#" class="getstarted">Book a Ticket</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
